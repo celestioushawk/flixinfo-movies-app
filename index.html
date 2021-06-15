@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./glider.min.css">
+    <link rel="stylesheet" href="final-slider.css">
+    <title>FlixInfo | Movies, Trailers & More</title>
+    <link rel="icon" href="./flixinfo.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="preloader">
+        
+    </div>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html">FLIXINFO <i class="fas fa-film"></i></a>
+            </div>
+            <div class="search">
+                <form action="" id="form">
+                    <input type="text" name="" id="search" class="input" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="main-container">
+            <div class="glider-contain multiple">
+                <button class="glider-prev">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                <div class="glider1">
+                    <div class="header">
+                        <div class="text">
+                            <h1>Tenet</h1>
+                            <p class="desc">Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>
+                            <p class="trailer"> <a href="https://www.youtube.com/watch?v=AZGcmvrTX9M"><i class="far fa-play-circle"></i> Watch Trailer</a></p>
+                        </div>
+                        <div class="image1">
+                        </div>
+                    </div>
+                    <div class="header">
+                        <div class="text">
+                            <h1>Cherry</h1>
+                            <p class="desc">Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world.</p>
+                            <p class="trailer"><a href="https://www.youtube.com/watch?v=H5bH6O0bErk&t=29s"><i class="far fa-play-circle"></i> Watch Trailer</a> </p>
+                        </div>
+                        <div class="image2">
+                        </div>
+                    </div>
+                    <div class="header">
+                        <div class="text">
+                            <h1>Fast 9</h1>
+                            <p class="desc">Dominic Toretto and his crew join forces to battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.</p>
+                            <p class="trailer"><a href="https://www.youtube.com/watch?v=fEE4RO-_jug"><i class="far fa-play-circle"></i> Watch Trailer</a></p>
+                        </div>
+                        <div class="image3">
+                        </div>
+                    </div>
+                    <div class="header">
+                        <div class="text">
+                            <h1>The Eternals</h1>
+                            <p class="desc">The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.</p>
+                            <p class="trailer"><a href="https://www.youtube.com/watch?v=0WVDKZJkGlY"><i class="far fa-play-circle"></i> Watch Trailer</a></p>
+                        </div>
+                        <div class="image4">
+                        </div>
+                    </div>
+                </div>
+                <button class="glider-next">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+            </div>
+            
+        </div>
+
+
+        <div class="second-container">
+            <div>
+                <h3>Trending</h3>
+            </div>
+            <button class="glider-prev-two">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <div class="glider-contain multiple">
+                
+                <div class="glider2">
+                </div>
+                
+            </div>
+            <button class="glider-next-two">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+            
+        </div>
+
+
+        <div class="third-container">
+            <div>
+                <h3>Popular in India</h3>
+            </div>
+            <button class="glider-prev-three">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <div class="glider-contain multiple">
+                <div class="glider3">
+                </div>
+                
+            </div>
+            <button class="glider-next-three">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+    <h2>FLIXINFO <i class="fas fa-film"></i></h2>
+        
+        <img src="./logo.svg" alt="" class="footer-logo">
+        <p>
+           All rights reserved. &copy; 2021.
+        </p>
+        <p>Piyush Tekwani</p>
+    </footer>
+
+
+
+    <script src="./final.js"></script>
+    <script src="./glider.min.js"></script>
+    <script>
+        new Glider(document.querySelector('.glider1'), {
+        slidesToShow: 1,
+        dots: false,
+        draggable: false,
+        arrows: {
+            prev: '.glider-prev',
+            next: '.glider-next'
+        },
+        autoplay: 1,
+        duration: 0.5
+        });
+
+        setTimeout(function start() {
+
+        new Glider(document.querySelector('.glider2'), {
+        slidesToShow: 7,
+        dots: false,
+        draggable: false,
+        arrows: {
+            prev: '.glider-prev-two',
+            next: '.glider-next-two'
+        },
+        autoplay: 1000,
+        duration: 0.5
+        });
+
+
+
+        new Glider(document.querySelector('.glider3'), {
+        slidesToShow: 7,
+        dots: false,
+        draggable: false,
+        arrows: {
+            prev: '.glider-prev-three',
+            next: '.glider-next-three'
+        },
+        autoplay: 1000,
+        duration: 0.5
+        });},2000)
+
+
+        
+    </script>
+ </body>
+</html>
