@@ -1,4 +1,5 @@
 <h1>FLIXINFO (Movies App)</h1><br>
+<p>An API based live movie application where user can look up info on any movie and get latest, trending, and popular movies online. Built using HTML/CSS and JavaScript.</p><br>
 <a href="https://www.linkedin.com/posts/piyush-tekwani-9423ba182_webdevelopment-frontend-html-activity-6809079161857036288-2KAM">Live Demo Video </a> <br>
 <h1>Homepage</h1>
 <img src="https://user-images.githubusercontent.com/44114775/121999114-872ea100-cdca-11eb-9624-7a5679e8a6c9.png">
