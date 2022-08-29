@@ -1,3 +1,4 @@
+<h2><a href="https://piyushtekwani.netlify.app/">Visit my Portfolio Website -> </a></h2>
 <h1>FLIXINFO (Movies App)</h1><br>
 <p>An API based live movie application where user can look up info on any movie and get latest, trending, and popular movies online. Built using HTML/CSS and Vanilla JavaScript. The project is using The MovieDB API. </p><br>
 <a href="https://www.linkedin.com/posts/piyush-tekwani-9423ba182_webdevelopment-frontend-html-activity-6809079161857036288-2KAM">Live Demo Video </a> <br>
